@@ -17,9 +17,9 @@ Project creation
 
 One can create a new project with the `createvhdlproject.sh` shell script:
 
-    createvhdlproject.sh <project-name> <sim-top>
+    ./createvhdlproject.sh <project-name> <testbench-file>
 
-With `<project-name>` the name of the project and `<sim-top>` the name of the simulation file.
+With `<project-name>` the name of the project and `<testbench-file>` the name of the file that specifies testbench to run. The `<testbench-file>` will be located in the `testbench/` subdirectory.
 
 The shell script will create a directory with the name of the project and additional subfolders as well as a `Makefile`.
 
