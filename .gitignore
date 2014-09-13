@@ -1,7 +1,9 @@
 #Ignore all
 *
-#Exception .gitignore
+#Except .gitignore
 !*.gitignore
+#Makefiles
+!*/Makefile
 #Except vhdl files
 !*/src/*.vhd
 !*/src/*.ucf
