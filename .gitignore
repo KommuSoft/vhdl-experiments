@@ -1,0 +1,8 @@
+#Ignore all
+*
+#Exception .gitignore
+!*.gitignore
+#Except vhdl files
+!*/src/*.vhd
+!*/src/*.ucf
+!*/src/*.xcf
