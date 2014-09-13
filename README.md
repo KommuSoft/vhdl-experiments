@@ -35,3 +35,9 @@ Each project supports the following commands (in the project directory):
  * `make ghdl-clean` to clean the simulation folder.
  
 One can run `make ghdl-all` to compile, run, view and clean the project.
+
+Links
+-----
+
+ * `ghdl` [website](http://ghdl.free.fr/)
+ * `ghdl` [manual](http://ghdl.free.fr/ghdl/)
